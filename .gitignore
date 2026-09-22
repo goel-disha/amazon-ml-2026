@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/*
+!data/.gitkeep
+
+oof/*
+subs/*
+
+.ipynb_checkpoints/
+.vscode/
