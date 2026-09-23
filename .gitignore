@@ -1,12 +1,51 @@
-.venv/
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# IDE / OS
+.idea/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Amazon ML Challenge data
 data/*
 !data/.gitkeep
 
+# Out-of-fold predictions
 oof/*
-subs/*
 
-.ipynb_checkpoints/
-.vscode/
+# Submissions
+subs/*
